@@ -16,13 +16,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap" rel="stylesheet">
 
+        <!-- ICONS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
    </head>
 
   <body>
     <header>
       <div class="nav flex  justify-center z-50 ">
-        <ul class="	 pr-10">
+        <ul class="	 uppercase pr-10">
           <li>
             <a href="index.html">Accueil</a>
           </li>
@@ -42,13 +46,24 @@
             <a href="about.html">à propros</a>
           </li>
           <li>
-            <a href="contact.html">contact</a>
+            <span class="button-open">contact</span>
           </li>
       </ul>
     </div>
   </header>
-    
-  <div class="main-container flex items-center justify-center  h-screen">
+  
+  <!-- MODAL -->
+  <div class="modal-overlay">
+    <div class="modal-container">
+      <h3>Contactez moi par mail</h3>
+      <a href="mailto:dvigroux@divig.fr">dvigroux@divig.fr</a>
+      <span class="material-icons close-button">
+        close
+        </span>
+    </div>
+  </div>
+
+  <div class=" w-screen main-container flex items-center justify-center  h-screen">
     <div class="logo-title flex items-center flex-col w-25 mr-24">
       <img src="images/div.svg" class="logo-color" alt="logo-main page">
       <h3 class="divig-title text-white text-5xl mt-10"> DIVIG SERVICE</h3>
@@ -67,3 +82,4 @@
     </body>
 
 </html>
+

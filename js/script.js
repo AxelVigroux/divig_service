@@ -120,3 +120,17 @@ TweenMax.from(".contact-mid", 1, {
   x: -800,
   ease: "sine.out",
 });
+
+/* MODAL */
+
+const openButton = document.querySelector(".button-open");
+const modalOverlay = document.querySelector(".modal-overlay");
+const closeButton = document.querySelector(".close-button");
+
+openButton.addEventListener("click", function () {
+  modalOverlay.classList.add("open-modal");
+});
+
+closeButton.addEventListener("click", function () {
+  modalOverlay.classList.remove("open-modal");
+});

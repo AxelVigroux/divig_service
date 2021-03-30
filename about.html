@@ -1,6 +1,8 @@
 <head>
   <link href="/tailwind.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
   <header>
     <div class="nav flex  justify-center z-50 ">
@@ -24,13 +26,24 @@
           <a href="about.html">à propros</a>
         </li>
         <li>
-          <a href="contact.html">contact</a>
+          <span class="button-open">contact</span>
         </li>
     </ul>
   </div>
 </header>
 
 <body>
+    <!-- MODAL -->
+    <div class="modal-overlay">
+      <div class="modal-container">
+        <h3>Contactez moi par mail</h3>
+        <a href="mailto:dvigroux@divig.fr">dvigroux@divig.fr</a>
+        <span class="material-icons close-button">
+          close
+          </span>
+      </div>
+    </div>
+
 <div class="main-about h-screen flex justify-around items-center">
  <div class="about-left about-contain flex flex-col">
    <div class="left-top h-1/2 w-full flex justify-center items-center flex-col">

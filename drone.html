@@ -2,6 +2,9 @@
 
   <link href="/tailwind.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 
   <header>
@@ -27,7 +30,7 @@
           <a href="about.html">à propros</a>
         </li>
         <li>
-          <a href="contact.html">contact</a>
+          <span class="button-open">contact</span>
         </li>
     </ul>
   </div>
@@ -35,6 +38,18 @@
 </header>
 
 <body>
+
+    <!-- MODAL -->
+    <div class="modal-overlay">
+      <div class="modal-container">
+        <h3>Contactez moi par mail</h3>
+        <a href="mailto:dvigroux@divig.fr">dvigroux@divig.fr</a>
+        <span class="material-icons close-button">
+          close
+          </span>
+      </div>
+    </div>
+
 <div class="main-drone h-screen flex justify-center items-center">
   <div class="contain-drone h-5/6 w-full m-8 flex flex-row">
     <div class="left-drone w-1/3">
